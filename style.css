@@ -1,0 +1,338 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    src: url("SorceSansPro-Bold.ttf");
+    font-family: SorceSansPro; 
+}
+@font-face{
+    src: url("Roboto-Bold.ttf");
+    font-family: Roboto; 
+}
+
+.container{
+    
+    max-width: 414px;/*25.875em;*/
+    margin: 1.25em auto;
+}
+ .about-visual{
+        background-color: #FAFAFA;
+    }
+
+.header-section{
+    display: flex;
+    
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    
+    
+}
+.header-img{
+    width: 1.4475em;/*23.16px*/
+    height: 1.4475em; /*23.16px;*/
+    margin-top:  0.875em; /*14px;*/
+    padding-left: 16px;
+}
+.header-txt{
+    padding-left: 0.3125em;/*5px;*/
+     font-family: Roboto; 
+     font-weight: 400;
+} 
+nav,ul,li,a{
+    display: flex;
+    font-family: SorceSansPro;
+    font-weight: 700;
+    text-decoration: none;
+    color: #090909
+    
+}
+.nav-shift{
+    padding-right: 16px;
+}
+
+.nav-home{
+    padding-right: 1.25em; /*20px;*/
+    
+}
+
+
+.img-hero{
+    background-image:url("images/article-image-hero.png");
+    background-size: cover;
+    height: 293px;/*18.3125em;*/
+    width: 414px;  /*25.875em;;*/;  /*25.875em;;*/
+    color: white;
+    padding-top: 0.3125em;/*5px;*/
+    
+     
+    
+}
+.hero-date{
+     font-size: 0.75rem; /*12px;*/
+     /*line-height: 1;*/
+    font-family: SorceSansPro;
+    font-weight: 400;
+    
+}
+.hero-date-shift{
+    margin-bottom: 0.16em; /*10px;*/
+    margin-top: 3.125em; /*50px;*/
+   
+}
+.hero-header{
+    margin-top: 0px;
+    margin-bottom: 0.625em; /*10px;*/
+    font-size: 5vw; /*32px;*/
+    font-family: SorceSansPro;
+    font-weight: 700;
+    margin-bottom: 2px;
+
+}
+.hero-txt{
+    margin-top: 0px;
+    font-size: 1rem;
+    font-family: SorceSansPro;
+    font-weight: 400;
+}
+.hero-space{
+    margin-left: 1.25rem;/*20px*/   
+}
+/*css for blog-1*/
+.img-blog-1{
+   background-image: url("images/article-image-03.png");    
+}
+.blog-article{
+    margin-left: 20px;
+     font-size: 1rem;
+    font-family: SorceSansPro;
+    font-weight: 400;
+    margin-top: 0.3125em /*5px;*/
+}
+.blog-header{
+    margin-left: 1.25rem;/*20px*/
+    font-size: 2rem;
+    font-family: SorceSansPro;
+    font-weight: 700; 
+    margin-top: 0em; 
+}
+/* for-blog-2 */
+.img-blog-2{
+   background-image: url("images/article-image-02.png");    
+}
+/*for blog-3*/
+ .img-blog-3{
+   background-image: url("images/article-image-01.png"); 
+ }
+ /*for blog-4*/
+ .img-blog-4{
+   background-image: url("images/musk.png");
+ }
+ .youtube-link{
+     color: lightsalmon
+ }
+ .remove-decoration{
+     text-decoration: none;
+     color: black;
+ }
+ /*for blog-5*/
+ .img-blog-5{
+   background-image: url("images/photo-burger.avif");
+ }
+ /*for blog-6*/
+ .img-blog-6{
+   background-image: url("images/post-vangogh.jpg");
+   
+ }
+ /*for blog-7*/
+ .img-blog-7{
+   background-image: url("images/metric-units-length.webp"); 
+ }
+ /*for blog-8*/
+ .img-blog-8{
+   background-image: url("images/password-generator.webp");
+ }
+  /*for blog-9*/
+ .img-blog-9{
+   background-image: url("images/score-board.webp");  
+ }
+ .img-blog-1,
+ .img-blog-2,
+ .img-blog-3,
+ .img-blog-4,
+ .img-blog-5,
+ .img-blog-6,
+ .img-blog-7,
+ .img-blog-8,
+ .img-blog-9{
+    height: 14.5em; /*232px;*/
+    width: 23.75em; /*374px;*/
+    margin-left: 1.25rem;/*20px*/
+     background-size:cover;
+ }
+ footer{
+     background-color: #202020;
+     text-align: center;
+     margin-top: 20px;
+ }
+ .myfooter{
+     color:#ECECEC;
+     font-family: 'Source Sans Pro';
+     padding-top: 1em; /*16px*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;/*12px;*/
+    line-height: 1.08;
+ }
+ 
+ .copyright{
+     font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+     color: #D7D7D7;
+     padding-bottom: 1em; /*16px*/;
+ }
+ /*About section*/
+ .mypic{
+     background-image: url("images/mypic.jpg");
+     background-size: cover;
+     width: 180px;
+     height: 180px;
+     border-radius: 50%;
+ }
+ .about-header,
+ .about-txt,
+ .committed,
+ .recent-post{
+      font-family: 'Source Sans Pro';
+     font-style: normal;   
+ }
+ .about-header,
+ .committed,
+ .recent-post{
+     font-weight: 700;
+     
+ }
+ .about-txt,
+ .committed,
+ .recent-post{
+     font-size: 1rem;/*16px;*/
+     line-height: 1.25; /*20px*/
+ }
+ 
+ .about-header{
+    
+    font-size: 2.177em; /*34.8381px;*/
+    line-height: 1.08;
+ }
+ .about-txt{
+    font-weight: 400;
+ }
+ .committed{
+letter-spacing: 0em;
+ }
+ .recent-post{
+     text-align: center;
+ }
+ 
+ 
+ @media(min-width: 767px){
+
+     .grid{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+        
+     }
+     header,
+     footer{
+         width: 1200px;
+     }
+     .img-hero{
+         width: 1220px;
+         height: 488px;
+         
+     }
+     .container{
+          margin: 1.25em 1.5em;
+          padding-left: 3.125em;/*50px;*/
+     }
+     
+     .hero-date-shift{
+         padding-top: 14.375rem/*230px;*/
+     }
+     .hero-txt{
+          font-size: 2vw;
+     }
+     
+     
+    /*about-section*/
+   
+    .about-header-flex{
+        display: flex;        
+    }
+    .about-header{
+        padding-left: 200px;/*200px;*/
+        padding-right: 60px;/*60px;*/
+        font-size: 3vw;;
+        position: absolute; 
+               
+    }
+    .about-space{
+       padding-left: 200px;
+         position: absolute;
+        margin-top: -70px;
+        padding-right: 60px;
+        
+        
+    }
+    
+    .committed{
+        margin-top: 0px;
+        
+    }
+    .about-txt-space{
+        margin-left: 121px;
+        
+    }
+    .about-lifelong-learner{
+        position: absolute;
+        margin-top: 0px;
+        padding-right: 60px;
+       
+    }
+    .about-journey{
+        margin-top: 50px;
+          position: absolute;
+    }
+    .about-started{
+        margin-top: 110px;
+    }
+    .about-gradually{
+         position: absolute;
+         margin-top: -10px;
+         padding-right: 60px;
+        
+    }
+    .about-help{
+         margin-top: 50px;
+          position: absolute;
+    }
+    .recent-post{
+         text-align: center;
+         margin-top: 100px;
+         margin-left: 400px;
+           position: absolute; 
+         
+    }
+    .grid-shift{
+        margin-top: 150px;
+    }
+    
+ }
